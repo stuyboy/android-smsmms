@@ -360,7 +360,7 @@ public class Transaction {
         if (!text.equals("")) {
             // add text to the end of the part and send
             MMSPart part = new MMSPart();
-            part.Name = "text";
+            part.Name = "text.txt";
             part.MimeType = "text/plain";
             part.Data = text.getBytes();
             data.add(part);
